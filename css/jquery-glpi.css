@@ -1,0 +1,398 @@
+.ui-dialog { z-index: 1000 !important ;}
+
+.ui-widget-content a { 
+  color: #FFA000;
+}
+
+.ui-widget-content a.vsubmit { 
+  color: #666;
+}
+
+.ui-widget-content a.vsubmit:hover { 
+  color: #fff;
+}
+/* css for timepicker */
+.ui-datepicker {z-index:10000 !important; }
+.ui-timepicker-div .ui-widget-header {margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; }
+.ui-timepicker-rtl dl dd { margin: 0 65px 10px 10px; }
+
+.hasDatepicker {margin-right:3px;}
+
+/* css styles for tabs */
+
+.ui-widget{
+  color:#666;
+  font-family: 'PT Sans', 'Segoe UI', arial, Tahoma, 'Sans serif';  
+}
+
+.ui-tabs {
+   width: 80%;
+   margin: auto;
+   border-radius:0;
+   border:0;
+}
+
+.ui-tabs .ui-widget-header{
+  border:0;
+  background:transparent;
+}
+
+.ui-tabs .ui-tabs-panel{
+  border:2px solid #ddd;
+  border-radius:0;
+}
+
+.ui-tabs .tab_cadre_fixe{
+  border:0;
+}
+
+.ui-tabs .ui-tabs-nav li{
+  border-radius:0;
+  border:2px solid #ddd;
+  margin-bottom:-2px;
+  background:#fff;
+  top:1px;
+}
+
+.ui-tabs .ui-tabs-nav li a{
+  color:#666;
+  font-family: 'PT Sans', 'Segoe UI', arial, Tahoma, 'Sans serif';
+  font-size: 13px;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active{
+  border-bottom:2px solid #fff;
+  margin-bottom:-2px;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a{
+  color:#333;
+  font-weight:bold;
+}
+
+.ui-tabs-vertical {
+   width: 98%;
+   border: 0;
+   vertical-align:top;
+}
+.ui-tabs-vertical .ui-tabs-nav {
+   padding: .2em .1em .2em .2em;
+   float: left;
+   width: 170px;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+   clear: left;
+   width: 99%;
+   border:0;
+   margin: 0 -1px .1em -1px;
+}
+.ui-tabs-vertical .ui-tabs-nav li a {
+   display: block;
+   text-align: left;
+   position:relative;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a:hover{
+  color:#ffa000;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a::after{
+  content:"";
+  position:absolute;
+  display:block;
+  height:10px;
+  width:7px;
+  right:0px;
+  top:10px;
+  background: url("../pics/fp/arrows.png") 0 -34px no-repeat transparent;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a:hover::after{
+  background: url("../pics/fp/arrows.png") 0 -44px no-repeat transparent;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+   padding-bottom: 0;
+/*    padding-right: .1em; */
+  border:0;
+  margin: 0 -1px .1em -1px;
+  background:#eee;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a:hover{
+  color:#333;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a::after,
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a:hover::after{
+  background: url("../pics/fp/arrows.png") 0 -24px no-repeat transparent;
+}
+
+.ui-tabs-vertical .ui-tabs-panel {
+   padding: 1em;
+   margin-left: 170px;
+/*   position: relative;*/
+   float: center;
+   /*width: 40em;*/
+}
+
+.ui-tabs-vertical .ui-tabs-panel{
+  border:0;
+}
+
+.ui-tabs-vertical .tab_cadre_fixe{
+  border:2px solid #ddd;
+  width:72%;
+}
+
+.ui-tabs-vertical form[name="form_ticket"] .tab_cadre_fixe:nth-child(n+2){
+  border-top:0;  
+}
+
+/* css styles for progress bar */
+
+.ui-progressbar .ui-progressbar-value { background-image: url('../pics/jquery/pbar-ani.gif'); }
+.doaction_progress_text {
+   float:left;
+   color:black;
+   text-align:center;
+   width:100%;
+   padding-top:3px;
+   font-weight:bold;
+}
+
+.ui-autocomplete {
+   max-height: 200px;
+   font-size: 11px;
+   overflow-y: auto;
+   /* prevent horizontal scrollbar */
+   overflow-x: hidden;
+}
+
+.ui-autocomplete a {
+   color : black;
+}
+
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+html .ui-autocomplete {
+   height: 100px;
+}
+
+.loadingindicator {
+    background:#ddd;
+   max-width: 350px;
+   margin : auto;
+   padding:10px;
+}
+
+/* SELECT2 */
+
+.select2-container, .select2-drop, .select2-search, .select2-search input{
+  margin-bottom:5px;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button
+{
+  font-family: 'PT Sans', 'Segoe UI', arial, Tahoma, 'Sans serif';
+  font-size: 13px;
+  margin-bottom:5px;
+}
+.select2-results li {
+   font-family: 'PT Sans', 'Segoe UI', arial, Tahoma, 'Sans serif';
+   font-size: 13px;
+}
+.select2-search input {
+   font-family: 'PT Sans', 'Segoe UI', arial, Tahoma, 'Sans serif';
+   font-size: 13px;
+   border:1px solid #ddd;
+   background:#fff;
+}
+
+.select2-container .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choice, .select2-dropdown-open.select2-drop-above .select2-choices {
+    height: 38px;
+    padding: 0 40px 0 8px;
+    font-family: 'PT Sans', 'Segoe UI', arial, Tahoma, 'Sans serif';
+    font-weight: normal;
+    font-size:13px;
+    line-height:38px;
+    color:#666;
+    margin-top: 0px;
+    vertical-align: top;
+    border-radius:0;
+    background:#fff;
+    border:1px solid #ddd;
+}
+
+
+.select2-container .select2-choice > .select2-chosen{
+   margin-right:0;
+}
+
+.select2-container .select2-choice span {
+    margin-top: -2px;
+    text-align:left;
+    line-height:40px;
+    /* to have cut on left : not working reverse display for simple items*/
+    /*direction: rtl;*/
+}
+
+.select2-container .select2-choice .select2-arrow{
+   width:38px;
+   background:#f6f6f6;
+   border:1px solid #fff;
+}
+
+.select2-container .select2-choice .select2-arrow b{
+   position:relative;
+   width:9px;
+   height:8px;
+   top:16px;
+   left:15px;
+   background: url("../pics/fp/arrows.png") 0 -15px no-repeat transparent;
+}
+
+.select2-container.select2-dropdown-open .select2-choice .select2-arrow b{
+   background-position:0 -54px;
+}
+
+.select2-container .select2-choice div b {
+    margin-top: -2px;
+}
+
+.select2-container .select2-choice div b {
+    margin-top: -2px;
+}
+
+.select2-drop{
+   color:#666;
+}
+
+.select2-drop-active{
+   border-color:#ddd;
+}
+
+.select2-results .select2-highlighted{
+   background:#ffa000;
+}
+
+.select2-results ul.select2-result-sub > li .select2-result-label { padding-left: 10px }
+.select2-results ul.select2-result-sub ul.select2-result-sub > li .select2-result-label { padding-left: 10px }
+.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub > li .select2-result-label { padding-left: 10px }
+.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub > li .select2-result-label { padding-left: 10px }
+.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub > li .select2-result-label { padding-left: 10px }
+.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub > li .select2-result-label { padding-left: 10px }
+.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub > li .select2-result-label { padding-left: 10px }
+
+.select2-drop.select2-drop-above{
+  margin-bottom:0;
+}
+
+.select2-drop.select2-drop-above.select2-drop-active{
+  border-top:1px solid #ddd;
+}
+
+/* Menu actions*/
+.select2-actionable-menu {
+   width: 80%;
+   margin:auto;
+}
+
+#BackToTop {
+   float: left;
+   display:none;
+   color: #fff;
+   margin: 0 5px;
+   padding: 3px;
+   text-decoration: none;
+   font-family: 'PT Sans', 'Segoe UI', arial, Tahoma, 'Sans serif';
+   font-size: 13px;
+   position:fixed;
+   bottom:10px;
+   right:10px;
+   z-index:9000;
+   background:#ffa000;
+}
+
+#BackToTop span
+{
+   display: block;
+   cursor: pointer;
+   padding:3px 10px;
+}
+
+input.submit {
+   font-size : 13px;
+}
+
+.tab_cadre_fixe .tab_bg_1 td:last-child .submit:last-child{
+  margin-top:20px;
+}
+
+.tab_cadre_fixe tr:nth-last-child(n+2) .submit{
+  margin-bottom:20px;
+}
+
+#searchcriterias .tab_cadre_fixe .submit{
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.uploadbar {
+   height: 18px;
+   text-align: center;
+   font-weight:bold;
+   background-image: url('../pics/jquery/pbar-ani.gif');
+}
+
+/* GANTT diagram */
+
+.fn-gantt {
+   text-align: left;
+   font-size: 11px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1430px){
+    .ui-tabs-vertical .tab_cadre_fixe{
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 1295px){
+    .ui-tabs-vertical .tab_cadre_fixe{
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 1195px){
+    .ui-tabs-vertical .tab_cadre_fixe{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 1083px){
+    .mceLayout{
+        width:auto !important;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    input[type=text]{
+        max-width:500px !important;
+    }
+}
+
+
+
