@@ -1,0 +1,46 @@
+<root>
+   <name>FP Theme</name>
+   <key>fptheme</key>
+   <state>stable</state>
+   <logo>https://cloud.githubusercontent.com/assets/7323944/10058664/fc694b1e-6246-11e5-9047-64583a3d04ae.png</logo>
+   <description>
+      <short>
+         <en><![CDATA[GLPI Theme adjusted to high resolution screens.]]></en>
+      </short>
+      <long>
+         <en><![CDATA[Grey, white & orange layout with new icon set :). Just copy all the files into appropriate folders (overwrite files if needed).<br/>Enjoy!.<br/><br/><a href="http://www.future-processing.com">Company website</a>]]></en>
+      </long>
+   </description>
+   <homepage>https://github.com/FutureProcessing/glpi-fptheme</homepage>
+   <download>https://github.com/FutureProcessing/glpi-fptheme/archive/master.zip</download>
+   <issues>https://github.com/FutureProcessing/glpi-fptheme/issues</issues>
+   <readme>https://github.com/FutureProcessing/glpi-fptheme/blob/master/README.md</readme>
+   <authors>
+      <author>Future Processing</author>
+   </authors>
+   <versions>
+      <version>
+          <num>1.0</num>
+          <compatibility>0.85</compatibility>
+      </version>
+   </versions>
+   <langs>
+      <lang>en_GB</lang>
+   </langs>
+   <license><![CDATA[GPL v2+]]></license>
+   <tags>
+         <en>
+            <tag>Themes</tag>
+         </en>
+		 <lang>
+            <tag>Themes</tag>
+		 </lang>
+   </tags>
+   <screenshots>
+      <screenshot>https://cloud.githubusercontent.com/assets/7323944/10018706/2c2cd47e-6139-11e5-8c2a-0c4d669e669d.png</screenshot>
+      <screenshot>https://cloud.githubusercontent.com/assets/7323944/10018709/2c9abd54-6139-11e5-9a85-5283f771bae6.png</screenshot>
+      <screenshot>https://cloud.githubusercontent.com/assets/7323944/10018711/2cb1dc0a-6139-11e5-9e9e-26cb4a913fab.png</screenshot>
+	  <screenshot>https://cloud.githubusercontent.com/assets/7323944/10018707/2c470c9a-6139-11e5-8962-d2bcc0250a45.png</screenshot>
+	  <screenshot>https://cloud.githubusercontent.com/assets/7323944/10018710/2c9fb49e-6139-11e5-9719-1d6be662d966.png</screenshot>
+   </screenshots>
+</root>
